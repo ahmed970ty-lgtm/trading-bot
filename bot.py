@@ -472,7 +472,7 @@ async def handle_payment_method(query, payment_method, user_id):
 
 {payment_info}
 
-📞 للإستفسار أو المساعدة: @TradingSupportBot
+📞 للإستفسار أو المساعدة: @ah_dxo
 🆔 User ID الخاص بك: {user_id}
 """
 
@@ -723,7 +723,7 @@ def main():
         print("🤖 البوت المحمي شغال!")
         print("🔒 يعمل بنظام User ID")
         print("💵 للمستخدمين المدفوعين فقط - السعر: 30 دولار")
-        print("📞 دعم الدفع: @TradingSupportBot")
+        print("📞 دعم الدفع: @ah_dxo")
         print("👤 Developer User ID: 5523707961")
         print("⚡ Polling interval: 2.0 ثانية")
         
@@ -735,4 +735,5 @@ def main():
         print(f"❌ فشل تشغيل البوت: {e}")
 
 if __name__ == '__main__':
+
     main()
