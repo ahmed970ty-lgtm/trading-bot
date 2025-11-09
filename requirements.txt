@@ -1,6 +1,9 @@
-pip>=23.1
-setuptools>=65.0.0
-wheel
+# أدوات البناء الأساسية (ضرورية لمنع BackendUnavailable)
+pip>=24.0
+setuptools>=70.0.0
+wheel>=0.42.0
+
+# مكتبات المشروع
 python-telegram-bot==20.7
 requests==2.31.0
 pandas==2.0.3
@@ -9,5 +12,6 @@ ta==0.10.2
 flask==2.3.3
 gunicorn==21.2.0
 python-dotenv==1.0.0
+
 
 
