@@ -1,9 +1,5 @@
-# أدوات البناء (ضرورية لمنع الأخطاء في Render)
-pip==24.0
-setuptools==70.0.0
-wheel==0.42.0
-
-# مكتبات المشروع
+setuptools==68.2.2
+wheel==0.41.2
 python-telegram-bot==20.7
 requests==2.31.0
 pandas==2.0.3
